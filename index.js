@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react"
 import ReactDOM from 'react-dom/';
 
 import Navbar from "./Navbar"
@@ -16,4 +16,11 @@ function App() {
   )
 }
 
-ReactDOM.createRoot(document.getElementById('root')).render(<App/>); 
+
+ReactDOM.render(App(), document.getElementById("root"));
+
+// const rootElement = document.getElementById('root');
+// const root = React.createRoot(rootElement);
+
+// 👇️ if you use TypeScript, add non-null (!) assertion operator
+// const root = createRoot(rootElement!);

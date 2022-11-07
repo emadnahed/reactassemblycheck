@@ -1,8 +1,10 @@
+import React from "react"
+
 export default function Navbar() {
-    return (    <nav class="containere">
-            <div class="item-3 items">Home</div>
-            <div class="item-4 items">Services</div>
-            <div class="item-5 items">Contact us</div>
+    return (    <nav className="containere">
+            <div className="item-3 items">Home</div>
+            <div className="item-4 items">Services</div>
+            <div className="item-5 items">Contact us</div>
     </nav>
 )
 }
